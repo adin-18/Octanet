@@ -1,0 +1,90 @@
+/* styles.css */
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #1f0e60;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 5px rgba(208, 158, 8, 0.905);
+    width: 500px;
+    text-align: center;
+
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+#new-task {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #72afed;
+    border-radius: 4px;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#add-task-btn {
+    padding: 10px 15px;
+    border: none;
+    background-color: #335ad8;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+#add-task-btn:hover {
+    background-color: #72afed ;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border: 1px solid #067bc4;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.done-checkbox {
+    margin-right: 10px;
+    height: 20px;
+    width:20px;
+}
+
+button.delete-btn {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+button.delete-btn:hover {
+    background-color: #2604078f;
+}

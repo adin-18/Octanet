@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tropical Twist Juices</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-logo">
+      <img src="images/logo.png" alt="Tropical Twist">
+    </div>
+    <div class="nav-toggle" id="navToggle">
+      <i class="fas fa-bars"></i>
+    </div>
+    <ul class="nav-menu" id="navMenu">
+      <li class="nav-close" id="navClose"><i class="fas fa-times"></i></li>
+      <li><a href="#home">Home</a></li>
+      <li class="dropdown">
+        <a href="#products">Products <i class="fas fa-caret-down"></i></a>
+        <ul class="dropdown-menu">
+          <li><a href="#milkshakes">Milkshakes</a></li>
+          <li><a href="#fresh-juices">Fresh Juices</a></li>
+          <li><a href="#mojito">Mojito</a></li>
+        </ul>
+      </li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <div class="landing-page" id="home">
+    <div class="content">
+      <h1 class="title">Tropical Twist</h1>
+      <h2 class="subtitle">Exotic Fruit Juices</h2>
+      
+      <div class="product-display">
+        <div class="product-info">
+          <h3 id="productName">Mango Madness</h3>
+          <p id="productDescription">Experience the rich and refreshing taste of mango.</p>
+          <button class="buy-now-btn">Buy Now</button>
+        </div>
+        
+        <div class="product-visual">
+          <div class="slider-container">
+            <div class="slider" id="slider">
+              <div class="slide" data-flavor="mango">
+                <img src="images/mango.jpeg" alt="Mango Juice">
+              </div>
+              <div class="slide" data-flavor="strawberry">
+                <img src="images/strawberry.jpg" alt="Strawberry Juice">
+              </div>
+              <div class="slide" data-flavor="guava">
+                <img src="images/guava.jpg" alt="Guava Juice">
+              </div>
+            </div>
+          </div>
+          <div class="flavours">
+            <button class="flavour-btn" data-flavor="mango"></i> Mango</button>
+            <button class="flavour-btn" data-flavor="strawberry"> Strawberry</button>
+            <button class="flavour-btn" data-flavor="guava">Guava</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>About Us</h3>
+        <p>Tropical Twist brings you the finest exotic fruit juices, blending nature's best flavors for a refreshing experience.</p>
+      </div>
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Contact Us</h3>
+        <p>Email: info@tropicaltwist.com</p>
+        <p>Phone: (123) 456-7890</p>
+      </div>
+      <div class="footer-section">
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+          <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Tropical Twist. All rights reserved.</p>
+    </div>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
